@@ -1,0 +1,26 @@
+{
+  "name": "youtube-downloader-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "uuid": "^11.1.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
