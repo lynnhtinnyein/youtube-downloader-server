@@ -8,6 +8,8 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
+app.get("/api", (req, res) => { res.send("Server is running") });
+
 // get video details
 app.post("/api/download", async (req, res) => {
     try {
